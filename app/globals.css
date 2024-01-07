@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --semi-background: #F4F8FD;
+  --secondary: #006BFD;
+  --accent: #787570;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: clip;
+ 
+}
