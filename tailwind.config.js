@@ -18,6 +18,7 @@ module.exports = {
         "semi-background": "var(--semi-background)",
         'accent': "var(--accent)",
         'secondary': "var(--secondary)",
+        'dark-accent': "var(--dark-accent)",
       },
     },
   },
