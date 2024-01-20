@@ -1,8 +1,10 @@
+import { IndexNumForm } from "../../../components/onboarding/IndexNumForm";
 import { CustomProgressBar } from "../../../components/onboarding/CircularProgress";
 
 export default function Page() {
+  
   return (
-    <section className="flex flex-col justify-between h-[95vh]">
+    <section className="flex flex-col justify-between h-[90vh] w-[90vw] overflow-clip">
       <section>
         <nav className="flex justify-between items-center p-[20px]">
           <svg
@@ -20,44 +22,17 @@ export default function Page() {
           </svg>
           <CustomProgressBar />
         </nav>
-        <header className="my-[30px] px-[20px]">
+        <header className="my-[30px] px-[20px] w-[90vw]">
           <h1 className="text-3xl mb-[20px] w-[300px] ">
             Select your School and Input your Index Number
           </h1>
           <p>To continue, kindly provide your School name and Index Number</p>
         </header>
 
-        <section>
-          <form className="px-[20px]">
-            <div className="flex flex-col">
-              <label className="py-2">School</label>
-              <select
-                name="school"
-                id="school"
-                className="w-full flex flex-col px-3 py-3 border-2 border-black rounded-md"
-              >
-                <option>Presbyterian Boys Secondary School</option>
-                <option>Accra Senior High School</option>
-                <option>Aburi Girls Senior High School</option>
-              </select>
-            </div>
-            <div className="flex flex-col">
-              <label className="py-2 my-2">Index Number</label>
-              <input
-                type="text"
-                name="index"
-                className="border-2 py-3 px-3 rounded-md border-black"
-                placeholder="Type your index number here"
-              />
-            </div>
-          </form>
+        <section className="w-[90vw]">
+          {/* The form comes here */}
+          <IndexNumForm />
         </section>
-      </section>
-
-      <section className="flex px-[20px]">
-        <button className="bg-secondary text-white rounded-3xl text-lg p-3 w-full">
-          Continue
-        </button>
       </section>
     </section>
   );
