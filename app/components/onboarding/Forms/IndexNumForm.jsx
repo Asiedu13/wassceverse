@@ -1,4 +1,5 @@
 "use client";
+// import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { saveDataInLocalStorage } from "../../common/utils/main";
 
@@ -7,10 +8,11 @@ export function IndexNumForm() {
 
   function submitFormData(e) {
     e.preventDefault();
-    const { index, school } = e.target;
+    const { index, school } = e.target; 
 
     saveDataInLocalStorage("indexNum", index.value);
-    saveDataInLocalStorage("school", school.value);
+    saveDataInLocalStorage( "school", school.value );
+    
     router.push("/student/gender");
   }
   return (
