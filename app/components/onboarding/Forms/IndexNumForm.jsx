@@ -28,9 +28,16 @@ export function IndexNumForm() {
             id="school"
             className="w-full flex flex-col px-3 py-3 border-2 border-black rounded-md"
           >
-            <option>Presbyterian Boys Secondary School</option>
-            <option>Accra Senior High School</option>
-            <option>Aburi Girls Senior High School</option>
+            <option value="">Select a school</option>
+            <option value="Presbyterian Boys Secondary School">
+              Presbyterian Boys Secondary School
+            </option>
+            <option value="Accra Senior High School">
+              Accra Senior High School
+            </option>
+            <option value="Aburi Girls Senior High School">
+              Aburi Girls Senior High School
+            </option>
           </select>
         </div>
         <div className="flex flex-col">
