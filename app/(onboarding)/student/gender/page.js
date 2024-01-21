@@ -10,7 +10,7 @@ export default function Page() {
             subtitle="To continue, please select your gender for registration purposes."
           />
 
-          <section className="w-[90vw]">
+          <section className="w-[95vw]">
             <GenderForm />
           </section>
         </section>

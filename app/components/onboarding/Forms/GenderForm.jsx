@@ -24,7 +24,7 @@ export function GenderForm() {
   return (
     <form
       onSubmit={submitFormData}
-      className="px-[20px] h-[500px] mt-[100px] flex flex-col justify-between"
+      className="px-[20px] h-[420px] mt-[100px] flex flex-col justify-between"
     >
       <section>
         <div className="border p-4 flex gap-5 items-center rounded-md focus-within:border-secondary mb-[20px]">

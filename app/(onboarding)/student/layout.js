@@ -9,7 +9,7 @@ export const metadata = {
 export default function StudentOnboardingLayout({ children }) {
   return (
     <section>
-      <nav className="flex justify-between items-center p-[20px]">
+      <nav className="flex justify-between items-center p-[20px] max-w-[100vw]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="10.31"

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="bg-semi-background flex flex-col gap-10 justify-center items-center container overflow-x-clip h-[100vh]">
+    <main className=".px-[20px] bg-semi-background flex flex-col gap-10 justify-center items-center overflow-clip h-[90vh]">
       {/* Logo */}
       <section>
         <svg
