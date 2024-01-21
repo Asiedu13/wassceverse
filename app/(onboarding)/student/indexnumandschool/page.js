@@ -1,4 +1,4 @@
-import { CustomHeader } from "@/app/components/onboarding/CustomHeader";
+import { CustomHeader } from "../../../components/onboarding/CustomHeader";
 import { IndexNumForm } from "../../../components/onboarding/Forms/IndexNumForm";
 
 export default function Page() {
