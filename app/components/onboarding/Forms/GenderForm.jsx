@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
-import { saveDataInLocalStorage } from "../../common/utils/main";
+import { getAndVerifyData } from "../../common/utils/main";
 import { Button } from "../../common/ui/Button";
 
 export function GenderForm() {
@@ -17,9 +17,9 @@ export function GenderForm() {
 
   function submitFormData(e) {
     e.preventDefault();
+    const verified = getAndVerifyData(e, "gender", gender);
 
-    saveDataInLocalStorage("gender", gender);
-    router.push("/student/dob");
+    verified ? router.push("/student/dob") : console.log("an error occured");
   }
   return (
     <form
