@@ -6,12 +6,12 @@ export default function Page() {
     <section className="flex flex-col justify-between h-[90vh] w-[95vw] overflow-clip">
       <section className="flex flex-col justify-between ">
         <CustomHeader
-          title="Choose Your Gender"
-          subtitle="To continue, please select your gender for registration purposes."
+          title="Date of Birth"
+          subtitle="Please provide your date of birth for accurate registration."
         />
 
         <section className="w-[95vw]">
-            <DOBForm />
+          <DOBForm />
         </section>
       </section>
     </section>
