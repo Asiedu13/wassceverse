@@ -45,10 +45,10 @@ export function CourseForm() {
         </div>
       </section>
       <section className="flex flex-col gap-5 px-[0px]">
+        <Button label="Continue" />
         <Link href="/student/dob">
           <Button label="Previous" variant="secondary" />
         </Link>
-        <Button label="Continue" />
       </section>
     </form>
   );

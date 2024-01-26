@@ -40,10 +40,10 @@ export function DOBForm() {
         </div>
       </section>
       <section className="flex flex-col gap-5 px-[0px]">
+        <Button label="Continue" />
         <Link href="/student/gender">
           <Button label="Previous" variant="secondary" />
         </Link>
-        <Button label="Continue" />
       </section>
     </form>
   );
