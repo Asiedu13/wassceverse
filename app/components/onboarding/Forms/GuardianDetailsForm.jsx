@@ -27,7 +27,7 @@ export function GuardianDetailsForm() {
       getAndVerifyData(e, "guardianContact", guardianContact);
 
     verified
-      ? router.push("/student/facial-scan")
+      ? router.push("/facial-scan")
       : console.log("an error occured");
   }
   return (
