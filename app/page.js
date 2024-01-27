@@ -3,22 +3,22 @@ import Image from 'next/image';
 import { LoveBackground } from './components/common/ui/LoveBackground';
 export default function Home() {
   return (
-    <main className="bg-semi-background h-[100vh] flex flex-col justify-center items-center">
+    <main className="bg-semi-background container .h-[100vh] flex flex-col justify-center items-center">
       <section className='flex justify-center items-center'>
         {/* Image goes here */}
        <LoveBackground />
       </section>
 
-      <section className="h-[500px] .absolute .bottom-0 px-[40px] z-10">
-        <h2 className="text-5xl w-[300px] ">
+      <section className="h-[400px] container overflow-clip relative .bottom-0 px-[40px] z-10">
+        <h2 className="text-4xl container ">
           Experience Registration, Redefined
         </h2>
-        <p className="leading-[2rem] text-lg text-accent my-10 font-light w-[300px]">
+        <p className="leading-[2rem] text-lg text-accent my-5 font-light .w-[300px]">
           Immerse in a Redefined Student Registration Fusion of Modernity and
           cutting-edge technology
         </p>
         <Link href="/start">
-          <button className="bg-secondary text-semi-background flex gap-2 items-center px-[20px] py-[20px] text-xl rounded-xl">
+          <button className="bg-secondary text-semi-background flex gap-2 items-center px-[20px] py-[20px] text-base rounded-xl">
             Get Started
             {/* Icon comes here */}
             <svg

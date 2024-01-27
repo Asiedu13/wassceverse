@@ -18,7 +18,7 @@ export function IndexNumForm() {
   return (
     <form
       onSubmit={submitFormData}
-      className="px-[20px] h-[420px] mt-[100px] flex flex-col justify-between"
+      className="px-[20px] h-[380px] mt-[50px] flex flex-col justify-between"
     >
       <section>
         <div className="flex flex-col">

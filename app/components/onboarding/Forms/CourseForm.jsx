@@ -26,7 +26,7 @@ export function CourseForm() {
   return (
     <form
       onSubmit={submitFormData}
-      className="px-[20px] h-[390px] mt-[100px] flex flex-col justify-between"
+      className="px-[20px] h-[390px] mt-[50px] flex flex-col justify-between"
     >
       <section>
         <label htmlFor="male">Course</label>

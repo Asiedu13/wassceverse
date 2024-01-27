@@ -1,14 +1,14 @@
 export function LoveBackground() {
   return (
     <svg
-      width="855"
+      width="755"
       height="400"
-      viewBox="0 0 475 600"
+      viewBox="0 0 375 500"
       className="flex justify-center items-center relative"
     >
       <defs>
         <clipPath id="clip-WassceV_Background_Img">
-          <rect width="575" height="610" />
+          <rect width="575" height="510" />
         </clipPath>
       </defs>
       <g
@@ -16,7 +16,7 @@ export function LoveBackground() {
         data-name="WassceV Background Img"
         clipPath="url(#clip-WassceV_Background_Img)"
       >
-        <rect width="475" height="812" fill="#f4f8fd" />
+        <rect width="175" height="512" fill="#f4f8fd" />
         <path
           id="Path_1"
           data-name="Path 1"

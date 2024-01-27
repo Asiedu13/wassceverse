@@ -3,7 +3,7 @@ import { IndexNumForm } from "../../../components/onboarding/Forms/IndexNumForm"
 
 export default function Page() {
   return (
-    <section className="flex flex-col justify-between h-[90vh] w-[95vw] overflow-clip">
+    <section className="flex flex-col .justify-between h-[90vh] w-[95vw] overflow-clip">
       <section>
         <CustomHeader
           title="Select your School and Input your Index Number"

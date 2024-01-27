@@ -24,7 +24,7 @@ export function DOBForm() {
   return (
     <form
       onSubmit={submitFormData}
-      className="px-[20px] h-[420px] mt-[100px] flex flex-col justify-between"
+      className="px-[20px] h-[420px] mt-[50px] flex flex-col justify-between"
     >
       <section>
         <label htmlFor="male">Date of Birth</label>
