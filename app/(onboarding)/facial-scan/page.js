@@ -14,7 +14,7 @@ export default function Page() {
         />
         <h2 className="text-2xl font-bold">Facial Scan</h2>
         <p className="text-center px-[40px]">
-          WassceVerse's innovative feature utilizes facial recognition
+          WassceVerse&apos;s innovative feature utilizes facial recognition
           technology to authenticate students and display their stored
           information securely.
         </p>
