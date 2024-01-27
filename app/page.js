@@ -1,11 +1,15 @@
 import Link from 'next/link';
-
+import Image from 'next/image';
+import { LoveBackground } from './components/common/ui/LoveBackground';
 export default function Home() {
   return (
     <main className="bg-semi-background h-[100vh] flex flex-col justify-center items-center">
-      <section>{/* Image goes here */}</section>
+      <section className='flex justify-center items-center'>
+        {/* Image goes here */}
+       <LoveBackground />
+      </section>
 
-      <section className="h-[500px] .absolute .bottom-0 px-[40px]">
+      <section className="h-[500px] .absolute .bottom-0 px-[40px] z-10">
         <h2 className="text-5xl w-[300px] ">
           Experience Registration, Redefined
         </h2>

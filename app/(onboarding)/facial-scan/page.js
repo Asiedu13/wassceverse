@@ -20,7 +20,7 @@ export default function Page() {
         </p>
       </section>
       <section className="flex flex-col items-center justify-between">
-        <Link href="/student/facial-scan/scan">
+        <Link href="/facial-scan/scan">
           <Button label="Scan Your Face" />
         </Link>
         <Link href="/student/guardian-details">
